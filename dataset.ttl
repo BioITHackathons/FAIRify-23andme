@@ -1,0 +1,14 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#>.
+@prefix datacite: <http://purl.org/spar/datacite/>.
+
+<> rdf:type dcat:Dataset;
+    dct:title "DCB 23andMe Individual SNP Data";
+    dct:publisher <https://23andme.com>;
+    dcat:theme <http://www.wikidata.org/entity/Q24608672>, <http://www.wikidata.org/entity/Q20023123>, <http://www.wikidata.org/entity/Q216272>.
+<https://23andme.com> rdf:type foaf:Organization;
+    foaf:name "DB".
